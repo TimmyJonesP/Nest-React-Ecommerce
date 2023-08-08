@@ -38,4 +38,5 @@ export class Product {
   @Prop()
   stock: number;
 }
+
 export const ProductSchema = SchemaFactory.createForClass(Product);
